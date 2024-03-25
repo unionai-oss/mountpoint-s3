@@ -19,6 +19,11 @@ inputs:
     required: false
     type: boolean
     default: false
+  openssl-devel:
+    description: "Install OpenSSL"
+    required: true
+    type: boolean
+    default: true
 runs:
   using: "composite"
   steps:
